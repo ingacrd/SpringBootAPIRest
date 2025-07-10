@@ -1,10 +1,12 @@
 package com.ingaru.springbootrest;
 
+import jakarta.persistence.Entity;
 
 
-
-
+@Entity
 public class Alien {
+	
+	@jakarta.persistence.Id
 	private int Id;
 	private String name;
 	private int points;
